@@ -21,7 +21,7 @@
 include ../config.mk
 include ../config-unix.mk
 
-PROGRAM = ../build/console.exe
+PROGRAM = ../build/winpty.exe
 OBJECTS = main.o Shared.o
 CXXFLAGS += -I../include
 LDFLAGS += $(LDFLAGS_STATIC_LIBSTDCXX) ../build/winpty.dll
